@@ -146,7 +146,7 @@ rbenv install 3.1.3
 
 `ruby -v`
 
-
+![What does rbenv do? Noel Rappin](initial-setup-images/what-rbenv-does-noel-rappin.png)
 
 
 
