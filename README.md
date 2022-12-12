@@ -87,6 +87,8 @@ Your system is ready to brew.
 
 After some time spent doing my research I find this [page](https://github.com/nodenv/nodenv#understanding-path) very useful to understand the `$PATH` why its importance, and how it may affect the setup.
 
+You can display it with `echo $PATH`
+
 Also the usage of [shims](https://github.com/nodenv/nodenv#understanding-shims). 🗂️
 
 
@@ -149,8 +151,52 @@ rbenv install 3.1.3
 ![What does rbenv do? Noel Rappin](initial-setup-images/what-rbenv-does-noel-rappin.png)
 
 
+## Install `node` 🎛️
 
 
+```bash
+brew install nodenv
+# list all available versions:
+nodenv install -l
+```
+
+```bash
+# install a Node version:
+nodenv install x.xx.xx
+```
 
 
+Manually copy/paste shims in your ~/.zshrc. Open it with `code ~/.zshrc`
+
+`eval "$(nodenv init -)"` then save/close the file and restart the terminal
+
+
+To check the all is good ✅
+```bash
+curl -fsSL https://github.com/nodenv/nodenv-installer/raw/master/bin/nodenv-doctor | bash
+```
+
+Set a local node version as local
+
+`nodenv local x.xx.xx`
+
+If you're curios why `node` ? [here](https://www.freecodecamp.org/news/what-is-node-js/)
+
+## Install `yarn` 🔭
+
+`brew install yarn`
+
+To check the version
+
+`yarn -v`
+
+## Gems installing 📦 🛤️
+
+install rails 
+
+`gem install rails`
+
+To check rails version
+
+`rails -v`
 
