@@ -14,3 +14,8 @@ The reason? an issue on how the directories were organized. How they initially g
 Finally we ran `gem environment` to see the whole directory.
 
 Moved one “.gem” file from its original location to the where it should be (still don’t know what created it), and then we deleted the “.gembk” (weird directory)
+
+Commands and paths of the issue above described:
+
+![ruby_directory_removed](initial-setup-images/gem_directory_removing.png)
+
