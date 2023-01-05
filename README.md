@@ -132,10 +132,16 @@ $ rbenv versions
 ```
 
 6. Install ruby version
+
 ```bash
 rbenv install 3.1.3
 ```
 
+ ⚠️  be careful when installing or updating ruby version, make sure to update plug in [ruby-build](https://github.com/rbenv/ruby-build) as well.
+ ``` bash
+ brew upgrade ruby-build
+ ```
+ 
 7. Set XX version as global or local
 
 `rbenv global X.X.X`
